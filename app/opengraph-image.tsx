@@ -20,13 +20,36 @@ export default function OpengraphImage() {
         fontFamily: 'serif',
       }}
     >
-      <div style={{ fontSize: 28, letterSpacing: 6, textTransform: 'uppercase', opacity: 0.75 }}>
+      <div
+        style={{
+          display: 'flex',
+          fontSize: 28,
+          letterSpacing: 6,
+          textTransform: 'uppercase',
+          opacity: 0.75,
+        }}
+      >
         {siteConfig.shortName} Advocacia
       </div>
-      <div style={{ fontSize: 72, lineHeight: 1.05, maxWidth: 950 }}>
+
+      <div
+        style={{
+          display: 'flex',
+          fontSize: 72,
+          lineHeight: 1.05,
+          maxWidth: 950,
+        }}
+      >
         Entenda seus direitos antes de tomar qualquer decisão.
       </div>
-      <div style={{ fontSize: 28, opacity: 0.75 }}>
+
+      <div
+        style={{
+          display: 'flex',
+          fontSize: 28,
+          opacity: 0.75,
+        }}
+      >
         {siteConfig.responsible.oab} · {siteConfig.city}/{siteConfig.state}
       </div>
     </div>,
